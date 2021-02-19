@@ -1,0 +1,31 @@
+/*** Color /***/
+
+$primary-color: #ff841b;
+$primary-hover: #ff941b;
+$secondary-color: #001a53;
+$secondary-hover: #001a73;
+$black-color: #000000;
+$white-color: #ffffff;
+$lightgray-f2: #f2f2f2;
+$lightgray-f5: #f5faff;
+$lightgray-fb: #fbfbfb;
+$lightgray-ee: #eef7ff;
+$dark-gray-44: #444444;
+$dark-gray-48: #484848;
+$dark-gray-5e: #5e6e89;
+$dark-gray-67: #676767;
+$dark-gray-c6: #c6c6c6;
+$dark-gray-9b: #9b9b9b;
+$dark-yellow: #ffbd59;
+$border-e0: #e0f0ff;
+$border-ea: #eaeaea;
+$border-db: #dbebfa;
+$input-border: #cae1f8;
+
+$Small-Desktop: "only screen and (max-width : 1439px)";
+$Small-Laptop: "only screen and (max-width: 1199px)";
+$IpadP: "only screen and (max-width : 1023px)";
+$PhoneL: "only screen and (max-width: 767px)";
+$PhoneS: "only screen and (max-width: 540px)";
+$PhoneXS: "only screen and (max-width: 359px)";
+$mobile-landscape-414: "only screen and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)";

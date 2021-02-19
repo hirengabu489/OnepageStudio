@@ -1,0 +1,226 @@
+/*** Color /***/
+@media (max-width: 1199px) {
+  header nav .nav-menu li {
+    padding: 0 24px 0 0;
+  }
+
+  /** hero section **/
+  .hero-section {
+    height: 760px;
+    max-height: 760px;
+  }
+  .hero-section .hero-container h1 {
+    font-size: 50px;
+    line-height: 58px;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  /** section header **/
+  .section-header .section-title-name {
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 14px;
+  }
+  .section-header h2.section-heading {
+    font-size: 42px;
+    line-height: 44px;
+  }
+
+  .get-quote-section,
+.testimonia-section,
+.performances-section,
+.contact-section {
+    padding: 75px 0;
+  }
+
+  /** services section **/
+  .services-section .service-leftimg {
+    max-width: 380px;
+  }
+  .services-section .service-rightimg {
+    left: 380px;
+  }
+  .services-section .services-content-box {
+    right: 20px;
+  }
+
+  /** performances section **/
+  .performances-section .performance-contant-box h2.title {
+    font-size: 42px;
+    line-height: 44px;
+  }
+
+  /** our work and team section **/
+  .our-team-section .team-col-contant .img-block {
+    height: 360px;
+    max-height: 360px;
+  }
+
+  /** testimonia section **/
+  .testimonia-section .testimonia-client-img {
+    width: 280px;
+    height: 280px;
+    max-width: 280px;
+    max-height: 280px;
+  }
+  .testimonia-section .carousel-indicators {
+    bottom: -30px;
+    left: 22%;
+  }
+
+  /** contact section **/
+  .contact-section .info .info-contant {
+    padding-bottom: 30px;
+  }
+  .contact-section .socialicons a i {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1023px) {
+  /** section header **/
+  .section-header .section-title-name {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 12px;
+  }
+  .section-header h2.section-heading {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  /** typography **/
+  h4.title,
+h4.title a {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  /** header **/
+  header nav.navbar-expand-md {
+    flex-wrap: wrap;
+  }
+
+  /** hero section **/
+  .hero-section {
+    height: 680px;
+    max-height: 680px;
+  }
+  .hero-section .hero-container h1 {
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 82%;
+  }
+
+  /** services section **/
+  .services-section {
+    height: 100%;
+    max-height: 100%;
+  }
+  .services-section .service-leftimg {
+    display: none;
+  }
+  .services-section .service-rightimg {
+    left: 0;
+  }
+  .services-section .services-content-box {
+    max-width: 100%;
+    padding: 40px 30px 40px 30px;
+    top: 40px;
+    margin: 0;
+    position: relative;
+    right: 0;
+  }
+  .services-section .services-content-box .services-detail {
+    padding-right: 0;
+  }
+  .services-section .services-content-box .services-detail .icon {
+    margin-right: 20px;
+  }
+
+  /** our work and team section **/
+  .our-work-section .work-col-contant .img-block,
+.our-work-section .team-col-contant .img-block,
+.our-team-section .work-col-contant .img-block,
+.our-team-section .team-col-contant .img-block {
+    height: 260px;
+    max-height: 260px;
+  }
+
+  /** performances section **/
+  .performances-section .performance-contant-box h2.title {
+    font-size: 32px;
+    line-height: 34px;
+    height: 58px;
+  }
+
+  /** contact section **/
+  .contact-section .info .info-contant {
+    padding-bottom: 25px;
+  }
+  .contact-section .socialicons a {
+    padding: 0 5px;
+  }
+  .contact-section .socialicons a i {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .get-quote-section,
+.testimonia-section,
+.performances-section,
+.contact-section {
+    padding: 48px 0;
+  }
+
+  .performances-section {
+    padding: 48px 0 0;
+  }
+
+  /** testimonia section **/
+  .testimonia-section .testimonia-client-img {
+    width: 240px;
+    height: 240px;
+    max-width: 240px;
+    max-height: 240px;
+  }
+}
+@media (max-width: 767px) {
+  /** header **/
+  header {
+    background: #000000;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+  }
+  header .container {
+    max-width: 100%;
+  }
+  header nav .nav-menu li {
+    padding: 0;
+    margin: 4px 10px;
+  }
+
+  .hero-section {
+    height: 100vh;
+    max-height: 100vh;
+  }
+  .hero-section .hero-container h1 {
+    font-size: 30px;
+    line-height: 38px;
+    padding: 16px 0 24px 0;
+    max-width: 100%;
+  }
+  .hero-section .hero-container p {
+    margin-bottom: 30px;
+  }
+
+  .our-work-info-section {
+    max-height: 100%;
+    margin: 0;
+  }
+
+  .testimonia-section .carousel-indicators {
+    display: none;
+  }
+}
